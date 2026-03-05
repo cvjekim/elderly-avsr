@@ -1,0 +1,28 @@
+# AVSR Baseline Default Configuration
+
+# Data
+data_root: /workspace/data/jekim/avsr/kmsav/data/cropped
+num_workers: 4
+
+# Training
+batch_size: 4
+eval_batch_size: 4
+epochs: 30
+learning_rate: 1.0e-4
+weight_decay: 0.01
+warmup_ratio: 0.1
+lr_scheduler: cosine
+fp16: true
+
+# Checkpointing
+save_total_limit: 3
+logging_steps: 50
+
+# Audio
+sample_rate: 16000
+n_mfcc: 13
+n_mels: 80
+
+# Video
+video_fps: 25
+img_size: 96
