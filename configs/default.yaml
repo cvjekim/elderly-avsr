@@ -1,7 +1,7 @@
 # AVSR Baseline Default Configuration
 
 # Data
-data_root: /workspace/data/jekim/avsr/kmsav/data/cropped
+data_root: /workspace/data/kmsav/data/cropped
 num_workers: 4
 
 # Training
