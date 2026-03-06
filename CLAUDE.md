@@ -12,8 +12,8 @@ Implement and evaluate AVSR baseline models using the KMSAV dataset.
 
 # 3. Dataset Configuration
 - **Dataset:** KMSAV (Korean Multi-speaker Spontaneous Audio-Visual)
-- **Root Directory:** `/workspace/data/jekim/avsr/kmsav`
-- **Target Data Path:** `/workspace/data/jekim/avsr/kmsav/data/cropped` (Use this directory for cropped face videos and synchronized audio)
+- **Root Directory:** `/workspace/data//kmsav`
+- **Target Data Path:** `/workspace/data/kmsav/data/cropped` (Use this directory for cropped face videos and synchronized audio)
 
 # 4. Baseline Models & References
 When generating code, refer strictly to the architecture and logic from the following official repositories:
